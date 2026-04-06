@@ -1,0 +1,45 @@
+Demo 1: Sentence Completion (Classic)
+===
+Prompt:
+Complete this sentence with the most likely word:
+The insurance claim was rejected because of ___
+
+Demo 2: Multiple Valid Answers (Probability Spread)
+===
+Prompt:
+List 5 possible ways to complete this sentence:
+The audit failed due to ___
+
+Demo 3: Temperature / Creativity Effect (Run Twice)
+===
+Prompt:
+Write one sentence explaining why a claim might be rejected.
+
+Demo 4: Predict the Next Word Step-by-Step
+===
+Prompt:
+Complete this step-by-step by predicting one word at a time:
+‘The policyholder submitted a claim for…’
+
+Then keep prompting:
+What is the next most likely word?
+
+Demo 5: Change Context → Change Prediction
+===
+Prompt 1:
+Complete: The patient was given ___
+
+Prompt 2:
+In a criminal case, complete: The suspect was given ___
+
+Demo 6: Bias in Probability (Business-Relevant)
+===
+Prompt:
+Complete: The CEO decided to ___
+
+Demo 7: Ranking Probabilities (Advanced but Simple)
+===
+Prompt:
+Give 3 possible next words for:
+‘The claim was flagged for ___’
+and rank them by likelihood.

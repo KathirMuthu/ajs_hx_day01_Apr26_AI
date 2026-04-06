@@ -1,0 +1,90 @@
+===
+1. Zero-Shot Prompting (No Examples)
+===
+Prompt:
+---
+Summarize the following insurance claim in 5 bullet points, highlighting key facts, risks, and final decision:
+
+Claim Details:
+•	Policyholder: Rajesh Kumar 
+•	Claim Type: Motor Insurance 
+•	Incident: Accident reported on 12 Jan 
+•	Damage: Front bumper and headlights 
+•	Estimated Cost: ₹85,000 
+•	Documents: FIR missing, photos submitted 
+•	Initial Assessment: Suspicious timing (policy purchased 5 days before incident) 
+
+===
+2. Few-Shot Prompting (With Examples)
+===
+Prompt:
+---
+You are an insurance analyst.
+
+Here are examples of good claim summaries:
+Example 1:
+Claim rejected due to lack of supporting documents and policy exclusion.
+Example 2:
+Claim approved after verifying accident details and valid coverage.
+Now, summarize the following claim in a similar style:
+
+Claim Details:
+•	Policyholder: Rajesh Kumar 
+•	Claim Type: Motor Insurance 
+•	Incident: Accident reported on 12 Jan 
+•	Damage: Front bumper and headlights 
+•	Estimated Cost: ₹85,000 
+•	Documents: FIR missing, photos submitted 
+•	Initial Assessment: Suspicious timing (policy purchased 5 days before incident) 
+
+===
+3. Chain-of-Thought (Step-by-Step Reasoning)
+===
+Prompt:
+---
+You are a senior insurance claims auditor.
+
+Analyze the following claim step-by-step:
+Step 1: Identify potential red flags
+Step 2: Check policy compliance issues
+Step 3: Assess completeness of documentation
+Step 4: Provide a final recommendation (approve / reject / investigate further) with justification
+
+Claim Details:
+•	Policyholder: Rajesh Kumar 
+•	Claim Type: Motor Insurance 
+•	Incident: Accident reported on 12 Jan 
+•	Damage: Front bumper and headlights 
+•	Estimated Cost: ₹85,000 
+•	Documents: FIR missing, photos submitted 
+•	Initial Assessment: Suspicious timing (policy purchased 5 days before incident)
+
+===
+4. ReAct (Reason + Act / Multi-step Workflow Thinking)
+===
+Prompt:
+---
+You are an AI claims investigation agent.
+
+Follow this process:
+Step 1: Understand the claim details
+Step 2: Identify missing or suspicious information
+Step 3: Suggest what additional data should be retrieved (e.g., FIR, policy terms, claim history)
+Step 4: Based on available + missing data, recommend next action (approve / reject / escalate for investigation)
+
+Clearly separate your response into:
+•	Reasoning 
+•	Actions Required 
+•	Final Recommendation 
+
+Claim Details:
+•	Policyholder: Rajesh Kumar 
+•	Claim Type: Motor Insurance 
+•	Incident: Accident reported on 12 Jan 
+•	Damage: Front bumper and headlights 
+•	Estimated Cost: ₹85,000 
+•	Documents: FIR missing, photos submitted 
+•	Initial Assessment: Suspicious timing (policy purchased 5 days before incident)
+
+
+
